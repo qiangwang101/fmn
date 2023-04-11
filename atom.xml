@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qiangwang101.github.io/fmn/</id>
     <title>军迷网（装备网）</title>
-    <updated>2023-04-11T11:55:28.917Z</updated>
+    <updated>2023-04-11T12:05:26.604Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qiangwang101.github.io/fmn/"/>
     <link rel="self" href="https://qiangwang101.github.io/fmn/atom.xml"/>
@@ -10,4 +10,20 @@
     <logo>https://qiangwang101.github.io/fmn/images/avatar.png</logo>
     <icon>https://qiangwang101.github.io/fmn/favicon.ico</icon>
     <rights>All rights reserved 2023, 军迷网（装备网）</rights>
+    <entry>
+        <title type="html"><![CDATA[美国海军陆战队M40A5狙击步枪]]></title>
+        <id>https://qiangwang101.github.io/fmn/post/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/</id>
+        <link href="https://qiangwang101.github.io/fmn/post/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/">
+        </link>
+        <updated>2023-04-11T12:00:25.000Z</updated>
+        <content type="html"><![CDATA[<p>美国海军陆战队的M40A5是M40A3的最新改进型，刚刚公布出来，目前的相关资料不多，但从图片来看，M40A5主要的改进有三个地方：一是增加了枪口装置，而且能使用SureFire的快拆消声器；二是增加了前导轨，可以在白光瞄准镜前面加上PGW PVS-22夜视仪；三是固定弹仓改为可拆卸弹匣，容弹量10发，由于改用了弹匣，因此扳机护圈前方有弹匣卡笋。除此之外，M40A5与M40A3基本一样，包括同样是使用雷明顿700的枪机系统和麦克米兰A4枪托等等。所以相比起在M40A1基础上大刀宽斧地改进出来的M40A3，新的M40A5其实只是M40A3的简单升级，因此外观上M40A5和M40A3的区别并不大，但区别特征很明显。<br>
+M40A5并不是重新生产，而是由匡蒂科的陆战队军械所把原有的M40A1和M40A3升级而成。目前一线的部队基本上都已经换装了M40A5，并用于实战或参与演习。</p>
+<p>全枪长	44.3&quot;（1125 mm）<br>
+枪管长	25&quot; （635 mm）<br>
+空枪重	16.5 lbs（7.48 kg）<br>
+最大有效射程	1,000 码</p>
+<p>图片在下一章。<br>
+摘自枪炮世界（http://pewpewpew.work/）</p>
+]]></content>
+    </entry>
 </feed>
