@@ -1,229 +1,602 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-    .pace .pace-progress {
-    	background: #1E92FB; /*进度条颜色*/
-    	height: 3px;
-    }
-    .pace .pace-progress-inner {
-     	box-shadow: 0 0 10px #1E92FB, 0 0 5px #1E92FB; /*阴影颜色*/
-    }
-    .pace .pace-activity {
-    	border-top-color: #1E92FB;	/*上边框颜色*/
-    	border-left-color: #1E92FB;	/*左边框颜色*/
-    }
-  </style>
-<meta charset="utf-8" >
 
-<title>美国 | 军迷网（装备网）</title>
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
 <meta name="description" content="博客版军迷网（装备网）">
+<meta name="theme-color" content="">
+<title>军迷网（装备网）</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1681451405493">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/pisces.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://fmncn.netlify.app/favicon.ico?v=1681451021475">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fmncn.netlify.app/styles/main.css">
+<link href="/media/hljs/styles/github.css"
+  rel="stylesheet">
 
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://fmncn.netlify.app">
-        <img class="avatar" src="https://fmncn.netlify.app/images/avatar.png?v=1681451021475" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://fmncn.netlify.app">
-        <h1 class="site-title">军迷网（装备网）</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-        
-          <a href="/friends/" class="menu purple-link">
-            友链
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?fe7ad2d9101bf9a2a56faa94b6a9f242";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
-      <div class="content-container">
 
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 美国
-          </h2> 
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
         </div>
-
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://fmncn.netlify.app/post/bo-lang-ning-da-wei-li-shou-qiang/">
-        <h2 class="post-title">勃朗宁“大威力”手枪</h2>
-      </a>
-      <div class="post-abstract">
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>军迷网（装备网）</span>
+            </a>  
+          
+        </div>
         
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2023-04-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
             
-              <a href="https://fmncn.netlify.app/tag/t1Fb6fMKB/">
-                比利时
-                
-                  ，
-                
-              </a>
             
-              <a href="https://fmncn.netlify.app/tag/LgxTi10XZ/">
-                美国
-                
-              </a>
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
             
-          </span>
-        
-      </div>
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/friends//" target="_self">
+                  <i class="fa fa-globe"></i> 友链
+                </a>
+              
+            </li>
+          
+          
+        </ul>
+      </nav>
     </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://fmncn.netlify.app/post/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/">
-        <h2 class="post-title">美国海军陆战队M40A5狙击步枪</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2023-04-11</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://fmncn.netlify.app/tag/LgxTi10XZ/">
-                美国
-                
-                  ，
-                
-              </a>
-            
-              <a href="https://fmncn.netlify.app/tag/ISmeXbQzq/">
-                美国海军陆战队
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
+  </header>
 </div>
 
+<script type="text/javascript"> 
+ 
+  let showNav = true;
 
-      </div>
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
 
-      
-<div class="site-footer">
-  <div class="slogan">博客版军迷网（装备网）</div>
-  <div class="social-container">
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
     
-      
+    <div
+      class="section-layout  pisces">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
     
-      
-    
-      
-    
-      
-    
-      
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name"></p>
     
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://fmncn.netlify.app/atom.xml" target="_blank">RSS</a>
-</div>
-
-
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
     </div>
-    <script type="application/javascript">
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item" style="border-top: 1px dotted #ccc; margin-top: 10px;">
+      </div>
+    
+  
+  
 
-hljs.initHighlightingOnLoad()
+  
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = '';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          美国
+          <small>标签</small>
+        </h2>
+      </div>
+      
+      
+      
+      
+      
+      <a href="https://fmncn.netlify.app/post/bo-lang-ning-da-wei-li-shou-qiang/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              04-12
+              <small>勃朗宁“大威力”手枪</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      <a href="https://fmncn.netlify.app/post/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              04-11
+              <small>美国海军陆战队M40A5狙击步枪</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+    <div class="bg-img">
+      <img src="" />
+    </div>
+  
+  
+  
+    
+
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = ''
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
 
 </script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
+  });
+</script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://fmncn.netlify.app/post/bo-lang-ning-da-wei-li-shou-qiang/"" data-c="
+          &lt;p&gt;比利时FN公司的勃朗宁“大威力”手枪是世界上最著名的手枪之一，曾被多个国家的军警所装备，也受到许多枪械收藏家的喜爱。可以毫不夸张地说，稍有一点手枪知识的人，没有不知道勃朗宁“大威力”手枪的，而且其在FN公司的手枪系列产品中的地位至今也无法撼动。在“大威力”手枪成功的阴影下，导致FN公司近年来推出的新手枪无论名声还是市场都无法获得成功这样的尴尬局面。《轻兵器》杂志曾经在1990年代初进行了一次由读者投票的“世界十大著名手枪”评选活动，而勃朗宁HP手枪在该活动中荣登榜首。&lt;/p&gt;
+&lt;p&gt;该型手枪的正式名称就叫做“大威力”，但称呼也很多，例如经常被简称为“HP”（Hi-Power或High-Power，在下文中，为了偷懒我将主要使用HP来称呼）或“GP”（法语“大威力”Grande Puissance的缩写），由于最初在1935年推出，也经常称为“P-35”或“勃朗宁HP35”，GP35或1935型，据说当年还一个绰号叫做“九之王”（King of Nines）。在比利时和爱尔兰，有时又被称为“BAP”（勃朗宁自动手枪Browning Automatic Pistol）。该系列中推出后就一直被改进，因此产生了许多型号，但整个系列都可以统称为“大威力”。&lt;/p&gt;
+&lt;p&gt;不过虽然叫做“大威力”，但其实这种9×19mm派拉贝鲁姆口径的半自动手枪的威力无论在现代还是它刚推出的年代都不算是威力最大的手枪，该枪之所以被命名为“大威力”，据说是由于该枪所采用的双排弹匣能携带13发弹，再加上膛内的1发，总共14发的容量几乎是同时代其他手枪（如卢格手枪或毛瑟1910手枪）的两倍。此外虽然乔治·卢格设计的9×19mm派拉贝鲁姆手枪弹的威力比不上.45ACP，但在不流行.45ACP的欧洲国家内，这也算得上是大威力的手枪弹了。但是除了这些理由外，还有一个重要的原因——是为了忽悠法国人。&lt;/p&gt;
+&lt;p&gt;在1920年代初期，法国陆军决定要采用一种新式的半自动手枪，他们对这种新式手枪的要求是：配用可卸式弹匣、容弹量至少10发、外露击锤、有手动保险、坚固耐用、容易分解组合、50米内能致人死地。对这种未来的新式手枪，法国人给了两个称呼，“大容量”（法语Grand Rendement），或是“大威力”（法语Grande Puissance）。由于对新式手枪的招标不限于本国企业，比利时FN公司也决定参与进来，根据这些要求，FN公司认为9mm口径或更大的口径会比较适合，弹头应该重约8克，而枪口初速350m/s，武器全重要控制在1公斤左右。于是FN公司便委托著名的枪械设计大师约翰·勃朗宁按照这些要求来设计一种新手枪。&lt;/p&gt;
+&lt;p&gt;在这以前勃朗宁已经成功地为美国陆军设计出.45 ACP口径的M1911式手枪，但由于该枪的专利已经卖给了柯尔特公司，因此现在勃朗宁必须绕过M1911的专利来设计一把全新的手枪。在1922年，勃朗宁设计出了两种采用不同原理的原型枪，一种采用自由后坐式原理，另一种则是枪管短后坐的半自由式原理，这两种原型枪均采用新设计的双排弹匣，这样就能使弹匣容弹量超过10发而又不至于让弹匣突出太长。有一个细节需要说明一下，虽然当时勃朗宁已经为FN公司工作了一段时间，不过他的工作室还是在美国犹他州的奥格登，所以在1922年的时候，勃朗宁是在美国的土地上为比利时FN公司替法国陆军设计出这两支原型枪的。&lt;br&gt;
+FN公司经过比较后，认为采用枪管短后坐原理更适合发射威力较大的9×19mm派拉贝鲁姆弹，于是选中了后一种原型枪的设计作进一步的研制和试验，由此推出了被称为M1923型的原型枪改进型。M1923型是在原型的基础上缩短长度，并增加了外露式的击锤、手动保险和弹匣保险，同时简化了分解步骤，该枪由16发双排弹匣供弹。FN公司在1925年把M1923型HP原型枪提供给法国陆军进行试验，试验的结果令人满意，但认为还需要再作进一步的改进。&lt;/p&gt;
+&lt;p&gt;然而在1926年，时年71岁的勃朗宁却因心脏病突发而去世，他本人没能完成该手枪的设计工作。幸好勃朗宁已经为FN公司带出了一位徒弟——比利时枪械设计师迪厄多内·塞弗，FN公司让塞弗继续完善HP原型枪的设计。塞弗首先是再缩短套筒和枪管长度，握把高度也减少了，使全枪重量进一步减轻，弹匣容弹量也因此而减少到13发。&lt;/p&gt;
+&lt;p&gt;到了1928年，柯尔特公司原本所拥有的M1911手枪的相关专利均已期满，于是塞弗便在HP手枪里整合了许多柯尔特的专利特征，并由此推出了塞弗－勃朗宁M1928型原型枪。这个型号的分解步骤与M1911式手枪相似，不过击锤形状是欧洲式的圆头形。在几经修改后，塞弗又于1929年改进了握把和空仓挂机解脱柄的形状，改进的型号后称为M1929型。&lt;br&gt;
+到了1931年，塞弗已经给HP手枪的设计基本定了型，此时的HP原型枪把可分解的枪管衬套与套筒成一个整体。到1934年时HP手枪的设计已经完成并准备好投产。它最先在1935年被比利时军队采用，并正式命名为勃朗宁P-35。不久之后，比利时警察也开始装备该枪，然后其他一些国家也开始装备该枪，如荷兰、丹麦、罗马尼亚、拉脱维亚、立陶宛等一些欧洲国家。在第二次世界大战爆发前，FN公司已经生产了35000多支HP手枪，可见该枪受欢迎的程度。然而，最初提出要求让FN公司设计出HP手枪的法国军队却决定不采用该手枪，而改为采用设计概念相似的Mle.1935手枪。&lt;/p&gt;
+&lt;p&gt;在二战初期，比利时被纳粹德国占领，原有的HP手枪都被纳粹德军缴获使用，并重新命名为640(b)手枪（“b”是比利时的意思）。而FN工厂在纳粹德军强迫下为其生产的HP手枪则被德国武器局打上检验标记和装备部队，并命名为WaA613手枪。&lt;/p&gt;
+&lt;p&gt;同时，同盟国所使用的勃朗宁HP手枪是由加拿大由约翰·英格利斯公司（John Inglis）所生产的，主要装备美国战略情报局（OSS）用于隐蔽行动和英国SAS或其他的突击队，以及加拿大和澳大利亚等英联邦国家的军队，可以说二战中的交战双方都有使用勃朗宁HP手枪作为辅助武器。大多数的加拿大生产的HP用磷酸盐处理处理，在被占领的比利时制造的大多数的HP则是烤蓝处理。当时中国进口的HP手枪也多数为加拿大生产的。&lt;br&gt;
+二战结束后，FN公司又恢复了勃朗宁HP手枪的生产。英国军队也于1954年正式采用该枪作为军用手枪。之后，许多国家都选用勃朗宁HP手枪作为制式武器，使HP手枪在战后更为流行，至今起码有超过90个国家里面的军队或执法机构使用这种武器。勃朗宁HP手枪自它推出以来就一直被FN公司多番改进，除了原来的P35型（M1935）外，重新命名的型号有：Mark I型、Mark II型、Mark III型、BDA/HP-DA型、BDAO/HP-DAO型、HP-DAC型和HP-SFS型，而其他生产HP手枪的厂家在相同型号上也有一些细节上的区别。&lt;/p&gt;
+&lt;p&gt;直到今天，HP的Mark I型仍被加拿大军队、比利时陆军、英国陆军、印度陆军、澳洲防卫军、阿根廷陆军、爱尔兰陆军、卢森堡陆军、以色列警察、新加坡特种部队和委内瑞拉陆军的所装备。就连伊拉克前总统萨达姆·候塞因也经常携带一把勃朗宁HP手枪。勃朗宁HP手枪就像勃朗宁设计的另一把著名手枪——1911式手枪一样长寿。&lt;/p&gt;
+&lt;p&gt;而继承了勃朗宁遗志完善了HP手枪设计的迪厄多内·塞弗后来也成为了FN公司的总设计师。二战后，他设计出著名的FAL自动步枪。&lt;br&gt;
+未来会有续章，图片在续章里。&lt;br&gt;
+摘自枪炮世界（http://pewpewpew.work/）&lt;/p&gt;
+">勃朗宁“大威力”手枪</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://fmncn.netlify.app/post/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/"" data-c="
+          &lt;p&gt;美国海军陆战队的M40A5是M40A3的最新改进型，刚刚公布出来，目前的相关资料不多，但从图片来看，M40A5主要的改进有三个地方：一是增加了枪口装置，而且能使用SureFire的快拆消声器；二是增加了前导轨，可以在白光瞄准镜前面加上PGW PVS-22夜视仪；三是固定弹仓改为可拆卸弹匣，容弹量10发，由于改用了弹匣，因此扳机护圈前方有弹匣卡笋。除此之外，M40A5与M40A3基本一样，包括同样是使用雷明顿700的枪机系统和麦克米兰A4枪托等等。所以相比起在M40A1基础上大刀宽斧地改进出来的M40A3，新的M40A5其实只是M40A3的简单升级，因此外观上M40A5和M40A3的区别并不大，但区别特征很明显。&lt;br&gt;
+M40A5并不是重新生产，而是由匡蒂科的陆战队军械所把原有的M40A1和M40A3升级而成。目前一线的部队基本上都已经换装了M40A5，并用于实战或参与演习。&lt;/p&gt;
+&lt;p&gt;全枪长	44.3&amp;quot;（1125 mm）&lt;br&gt;
+枪管长	25&amp;quot; （635 mm）&lt;br&gt;
+空枪重	16.5 lbs（7.48 kg）&lt;br&gt;
+最大有效射程	1,000 码&lt;/p&gt;
+&lt;p&gt;未来会有续章，图片在续章里。&lt;br&gt;
+摘自枪炮世界（http://pewpewpew.work/）&lt;/p&gt;
+">美国海军陆战队M40A5狙击步枪</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;比利时FN公司的勃朗宁“大威力”手枪是世界上最著名的手枪之一，曾被多个国家的军警所装备，也受到许多枪械收藏家的喜爱。可以毫不夸张地说，稍有一点手枪知识的人，没有不知道勃朗宁“大威力”手枪的，而且其在FN公司的手枪系列产品中的地位至今也无法撼动。在“大威力”手枪成功的阴影下，导致FN公司近年来推出的新手枪无论名声还是市场都无法获得成功这样的尴尬局面。《轻兵器》杂志曾经在1990年代初进行了一次由读者投票的“世界十大著名手枪”评选活动，而勃朗宁HP手枪在该活动中荣登榜首。&lt;/p&gt;\n&lt;p&gt;该型手枪的正式名称就叫做“大威力”，但称呼也很多，例如经常被简称为“HP”（Hi-Power或High-Power，在下文中，为了偷懒我将主要使用HP来称呼）或“GP”（法语“大威力”Grande Puissance的缩写），由于最初在1935年推出，也经常称为“P-35”或“勃朗宁HP35”，GP35或1935型，据说当年还一个绰号叫做“九之王”（King of Nines）。在比利时和爱尔兰，有时又被称为“BAP”（勃朗宁自动手枪Browning Automatic Pistol）。该系列中推出后就一直被改进，因此产生了许多型号，但整个系列都可以统称为“大威力”。&lt;/p&gt;\n&lt;p&gt;不过虽然叫做“大威力”，但其实这种9×19mm派拉贝鲁姆口径的半自动手枪的威力无论在现代还是它刚推出的年代都不算是威力最大的手枪，该枪之所以被命名为“大威力”，据说是由于该枪所采用的双排弹匣能携带13发弹，再加上膛内的1发，总共14发的容量几乎是同时代其他手枪（如卢格手枪或毛瑟1910手枪）的两倍。此外虽然乔治·卢格设计的9×19mm派拉贝鲁姆手枪弹的威力比不上.45ACP，但在不流行.45ACP的欧洲国家内，这也算得上是大威力的手枪弹了。但是除了这些理由外，还有一个重要的原因——是为了忽悠法国人。&lt;/p&gt;\n&lt;p&gt;在1920年代初期，法国陆军决定要采用一种新式的半自动手枪，他们对这种新式手枪的要求是：配用可卸式弹匣、容弹量至少10发、外露击锤、有手动保险、坚固耐用、容易分解组合、50米内能致人死地。对这种未来的新式手枪，法国人给了两个称呼，“大容量”（法语Grand Rendement），或是“大威力”（法语Grande Puissance）。由于对新式手枪的招标不限于本国企业，比利时FN公司也决定参与进来，根据这些要求，FN公司认为9mm口径或更大的口径会比较适合，弹头应该重约8克，而枪口初速350m/s，武器全重要控制在1公斤左右。于是FN公司便委托著名的枪械设计大师约翰·勃朗宁按照这些要求来设计一种新手枪。&lt;/p&gt;\n&lt;p&gt;在这以前勃朗宁已经成功地为美国陆军设计出.45 ACP口径的M1911式手枪，但由于该枪的专利已经卖给了柯尔特公司，因此现在勃朗宁必须绕过M1911的专利来设计一把全新的手枪。在1922年，勃朗宁设计出了两种采用不同原理的原型枪，一种采用自由后坐式原理，另一种则是枪管短后坐的半自由式原理，这两种原型枪均采用新设计的双排弹匣，这样就能使弹匣容弹量超过10发而又不至于让弹匣突出太长。有一个细节需要说明一下，虽然当时勃朗宁已经为FN公司工作了一段时间，不过他的工作室还是在美国犹他州的奥格登，所以在1922年的时候，勃朗宁是在美国的土地上为比利时FN公司替法国陆军设计出这两支原型枪的。&lt;br&gt;\nFN公司经过比较后，认为采用枪管短后坐原理更适合发射威力较大的9×19mm派拉贝鲁姆弹，于是选中了后一种原型枪的设计作进一步的研制和试验，由此推出了被称为M1923型的原型枪改进型。M1923型是在原型的基础上缩短长度，并增加了外露式的击锤、手动保险和弹匣保险，同时简化了分解步骤，该枪由16发双排弹匣供弹。FN公司在1925年把M1923型HP原型枪提供给法国陆军进行试验，试验的结果令人满意，但认为还需要再作进一步的改进。&lt;/p&gt;\n&lt;p&gt;然而在1926年，时年71岁的勃朗宁却因心脏病突发而去世，他本人没能完成该手枪的设计工作。幸好勃朗宁已经为FN公司带出了一位徒弟——比利时枪械设计师迪厄多内·塞弗，FN公司让塞弗继续完善HP原型枪的设计。塞弗首先是再缩短套筒和枪管长度，握把高度也减少了，使全枪重量进一步减轻，弹匣容弹量也因此而减少到13发。&lt;/p&gt;\n&lt;p&gt;到了1928年，柯尔特公司原本所拥有的M1911手枪的相关专利均已期满，于是塞弗便在HP手枪里整合了许多柯尔特的专利特征，并由此推出了塞弗－勃朗宁M1928型原型枪。这个型号的分解步骤与M1911式手枪相似，不过击锤形状是欧洲式的圆头形。在几经修改后，塞弗又于1929年改进了握把和空仓挂机解脱柄的形状，改进的型号后称为M1929型。&lt;br&gt;\n到了1931年，塞弗已经给HP手枪的设计基本定了型，此时的HP原型枪把可分解的枪管衬套与套筒成一个整体。到1934年时HP手枪的设计已经完成并准备好投产。它最先在1935年被比利时军队采用，并正式命名为勃朗宁P-35。不久之后，比利时警察也开始装备该枪，然后其他一些国家也开始装备该枪，如荷兰、丹麦、罗马尼亚、拉脱维亚、立陶宛等一些欧洲国家。在第二次世界大战爆发前，FN公司已经生产了35000多支HP手枪，可见该枪受欢迎的程度。然而，最初提出要求让FN公司设计出HP手枪的法国军队却决定不采用该手枪，而改为采用设计概念相似的Mle.1935手枪。&lt;/p&gt;\n&lt;p&gt;在二战初期，比利时被纳粹德国占领，原有的HP手枪都被纳粹德军缴获使用，并重新命名为640(b)手枪（“b”是比利时的意思）。而FN工厂在纳粹德军强迫下为其生产的HP手枪则被德国武器局打上检验标记和装备部队，并命名为WaA613手枪。&lt;/p&gt;\n&lt;p&gt;同时，同盟国所使用的勃朗宁HP手枪是由加拿大由约翰·英格利斯公司（John Inglis）所生产的，主要装备美国战略情报局（OSS）用于隐蔽行动和英国SAS或其他的突击队，以及加拿大和澳大利亚等英联邦国家的军队，可以说二战中的交战双方都有使用勃朗宁HP手枪作为辅助武器。大多数的加拿大生产的HP用磷酸盐处理处理，在被占领的比利时制造的大多数的HP则是烤蓝处理。当时中国进口的HP手枪也多数为加拿大生产的。&lt;br&gt;\n二战结束后，FN公司又恢复了勃朗宁HP手枪的生产。英国军队也于1954年正式采用该枪作为军用手枪。之后，许多国家都选用勃朗宁HP手枪作为制式武器，使HP手枪在战后更为流行，至今起码有超过90个国家里面的军队或执法机构使用这种武器。勃朗宁HP手枪自它推出以来就一直被FN公司多番改进，除了原来的P35型（M1935）外，重新命名的型号有：Mark I型、Mark II型、Mark III型、BDA/HP-DA型、BDAO/HP-DAO型、HP-DAC型和HP-SFS型，而其他生产HP手枪的厂家在相同型号上也有一些细节上的区别。&lt;/p&gt;\n&lt;p&gt;直到今天，HP的Mark I型仍被加拿大军队、比利时陆军、英国陆军、印度陆军、澳洲防卫军、阿根廷陆军、爱尔兰陆军、卢森堡陆军、以色列警察、新加坡特种部队和委内瑞拉陆军的所装备。就连伊拉克前总统萨达姆·候塞因也经常携带一把勃朗宁HP手枪。勃朗宁HP手枪就像勃朗宁设计的另一把著名手枪——1911式手枪一样长寿。&lt;/p&gt;\n&lt;p&gt;而继承了勃朗宁遗志完善了HP手枪设计的迪厄多内·塞弗后来也成为了FN公司的总设计师。二战后，他设计出著名的FAL自动步枪。&lt;br&gt;\n未来会有续章，图片在续章里。&lt;br&gt;\n摘自枪炮世界（http://pewpewpew.work/）&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;bo-lang-ning-da-wei-li-shou-qiang&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;勃朗宁“大威力”手枪&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;比利时&#34;,&#34;slug&#34;:&#34;t1Fb6fMKB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://fmncn.netlify.app/tag/t1Fb6fMKB/&#34;},{&#34;index&#34;:-1,&#34;name&#34;:&#34;美国&#34;,&#34;slug&#34;:&#34;LgxTi10XZ&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://fmncn.netlify.app/tag/LgxTi10XZ/&#34;}],&#34;date&#34;:&#34;2023-04-12 14:04:26&#34;,&#34;dateFormat&#34;:&#34;2023-04-12&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://fmncn.netlify.app/post/bo-lang-ning-da-wei-li-shou-qiang/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;9 min read&#34;,&#34;time&#34;:501000,&#34;words&#34;:2387,&#34;minutes&#34;:9},&#34;description&#34;:&#34;比利时FN公司的勃朗宁“大威力”手枪是世界上最著名的手枪之一，曾被多个国家的军警所装备，也受到许多枪械收藏家的喜爱。可以毫不夸张地说，稍有一点手枪知识的人，没有不知道勃朗宁“大威力”手枪的，而且其在FN公司的手枪系列产品中的地位至今也无法撼...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;美国海军陆战队的M40A5是M40A3的最新改进型，刚刚公布出来，目前的相关资料不多，但从图片来看，M40A5主要的改进有三个地方：一是增加了枪口装置，而且能使用SureFire的快拆消声器；二是增加了前导轨，可以在白光瞄准镜前面加上PGW PVS-22夜视仪；三是固定弹仓改为可拆卸弹匣，容弹量10发，由于改用了弹匣，因此扳机护圈前方有弹匣卡笋。除此之外，M40A5与M40A3基本一样，包括同样是使用雷明顿700的枪机系统和麦克米兰A4枪托等等。所以相比起在M40A1基础上大刀宽斧地改进出来的M40A3，新的M40A5其实只是M40A3的简单升级，因此外观上M40A5和M40A3的区别并不大，但区别特征很明显。&lt;br&gt;\nM40A5并不是重新生产，而是由匡蒂科的陆战队军械所把原有的M40A1和M40A3升级而成。目前一线的部队基本上都已经换装了M40A5，并用于实战或参与演习。&lt;/p&gt;\n&lt;p&gt;全枪长\t44.3&amp;quot;（1125 mm）&lt;br&gt;\n枪管长\t25&amp;quot; （635 mm）&lt;br&gt;\n空枪重\t16.5 lbs（7.48 kg）&lt;br&gt;\n最大有效射程\t1,000 码&lt;/p&gt;\n&lt;p&gt;未来会有续章，图片在续章里。&lt;br&gt;\n摘自枪炮世界（http://pewpewpew.work/）&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;美国海军陆战队M40A5狙击步枪&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;美国&#34;,&#34;slug&#34;:&#34;LgxTi10XZ&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://fmncn.netlify.app/tag/LgxTi10XZ/&#34;},{&#34;index&#34;:-1,&#34;name&#34;:&#34;美国海军陆战队&#34;,&#34;slug&#34;:&#34;ISmeXbQzq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://fmncn.netlify.app/tag/ISmeXbQzq/&#34;}],&#34;date&#34;:&#34;2023-04-11 20:00:25&#34;,&#34;dateFormat&#34;:&#34;2023-04-11&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://fmncn.netlify.app/post/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:72000,&#34;words&#34;:333,&#34;minutes&#34;:2},&#34;description&#34;:&#34;美国海军陆战队的M40A5是M40A3的最新改进型，刚刚公布出来，目前的相关资料不多，但从图片来看，M40A5主要的改进有三个地方：一是增加了枪口装置，而且能使用SureFire的快拆消声器；二是增加了前导轨，可以在白光瞄准镜前面加上PGW...&#34;,&#34;toc&#34;:&#34;&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
 
 
 
-
-  </body>
 </html>
