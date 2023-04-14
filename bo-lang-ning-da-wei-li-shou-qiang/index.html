@@ -1,149 +1,110 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-    .pace .pace-progress {
-    	background: #1E92FB; /*进度条颜色*/
-    	height: 3px;
-    }
-    .pace .pace-progress-inner {
-     	box-shadow: 0 0 10px #1E92FB, 0 0 5px #1E92FB; /*阴影颜色*/
-    }
-    .pace .pace-activity {
-    	border-top-color: #1E92FB;	/*上边框颜色*/
-    	border-left-color: #1E92FB;	/*左边框颜色*/
-    }
-  </style>
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>勃朗宁“大威力”手枪 | 军迷网（装备网）</title>
 <meta name="description" content="博客版军迷网（装备网）">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="shortcut icon" href="https://fmncn.netlify.app/favicon.ico?v=1681461543456">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://fmncn.netlify.app/favicon.ico?v=1681461520198">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://fmncn.netlify.app/styles/main.css">
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://fmncn.netlify.app">
-        <img class="avatar" src="https://fmncn.netlify.app/images/avatar.png?v=1681461520198" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://fmncn.netlify.app">
-        <h1 class="site-title">军迷网（装备网）</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://fmncn.netlify.app">军迷网（装备网）</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/friends/" class="menu">
+                友链
+              </a>
+            
+          </li>
+        
+      </ul>
     </div>
   </div>
-</div>
+</nav>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-        
-          <a href="/friends/" class="menu purple-link">
-            友链
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?fe7ad2d9101bf9a2a56faa94b6a9f242";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?3dbd062b60a2e7248904673bbae911f3";
-  var s = document.getElementsByTagName("script")[0]; 
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">勃朗宁“大威力”手枪</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2023-04-14</span>
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>勃朗宁“大威力”手枪</h1>
+            <p class="article-meta">
+              2023-04-14
+              
+                <a href="https://fmncn.netlify.app/tag/t1Fb6fMKB/" class="badge secondary">
+                  比利时
+                </a>
+              
+                <a href="https://fmncn.netlify.app/tag/LgxTi10XZ/" class="badge warning">
+                  美国
+                </a>
+              
+            </p>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://fmncn.netlify.app/tag/t1Fb6fMKB/">
-                    比利时
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://fmncn.netlify.app/tag/LgxTi10XZ/">
-                    美国
-                    
-                  </a>
-                
-              </span>
-            
-<script src="https://utteranc.es/client.js"
-				repo="qiangwang101/fmn"
-				issue-term="title"
-				theme="github-light"
-				crossorigin="anonymous"
-				async>
-		</script>
-          </div>
-          <div class="post-content">
-            <p>比利时FN公司的勃朗宁“大威力”手枪是世界上最著名的手枪之一，曾被多个国家的军警所装备，也受到许多枪械收藏家的喜爱。可以毫不夸张地说，稍有一点手枪知识的人，没有不知道勃朗宁“大威力”手枪的，而且其在FN公司的手枪系列产品中的地位至今也无法撼动。在“大威力”手枪成功的阴影下，导致FN公司近年来推出的新手枪无论名声还是市场都无法获得成功这样的尴尬局面。《轻兵器》杂志曾经在1990年代初进行了一次由读者投票的“世界十大著名手枪”评选活动，而勃朗宁HP手枪在该活动中荣登榜首。</p>
+            <div class="post-content">
+              <p>比利时FN公司的勃朗宁“大威力”手枪是世界上最著名的手枪之一，曾被多个国家的军警所装备，也受到许多枪械收藏家的喜爱。可以毫不夸张地说，稍有一点手枪知识的人，没有不知道勃朗宁“大威力”手枪的，而且其在FN公司的手枪系列产品中的地位至今也无法撼动。在“大威力”手枪成功的阴影下，导致FN公司近年来推出的新手枪无论名声还是市场都无法获得成功这样的尴尬局面。《轻兵器》杂志曾经在1990年代初进行了一次由读者投票的“世界十大著名手枪”评选活动，而勃朗宁HP手枪在该活动中荣登榜首。</p>
 <p>该型手枪的正式名称就叫做“大威力”，但称呼也很多，例如经常被简称为“HP”（Hi-Power或High-Power，在下文中，为了偷懒我将主要使用HP来称呼）或“GP”（法语“大威力”Grande Puissance的缩写），由于最初在1935年推出，也经常称为“P-35”或“勃朗宁HP35”，GP35或1935型，据说当年还一个绰号叫做“九之王”（King of Nines）。在比利时和爱尔兰，有时又被称为“BAP”（勃朗宁自动手枪Browning Automatic Pistol）。该系列中推出后就一直被改进，因此产生了许多型号，但整个系列都可以统称为“大威力”。</p>
 <p>不过虽然叫做“大威力”，但其实这种9×19mm派拉贝鲁姆口径的半自动手枪的威力无论在现代还是它刚推出的年代都不算是威力最大的手枪，该枪之所以被命名为“大威力”，据说是由于该枪所采用的双排弹匣能携带13发弹，再加上膛内的1发，总共14发的容量几乎是同时代其他手枪（如卢格手枪或毛瑟1910手枪）的两倍。此外虽然乔治·卢格设计的9×19mm派拉贝鲁姆手枪弹的威力比不上.45ACP，但在不流行.45ACP的欧洲国家内，这也算得上是大威力的手枪弹了。但是除了这些理由外，还有一个重要的原因——是为了忽悠法国人。</p>
 <p>在1920年代初期，法国陆军决定要采用一种新式的半自动手枪，他们对这种新式手枪的要求是：配用可卸式弹匣、容弹量至少10发、外露击锤、有手动保险、坚固耐用、容易分解组合、50米内能致人死地。对这种未来的新式手枪，法国人给了两个称呼，“大容量”（法语Grand Rendement），或是“大威力”（法语Grande Puissance）。由于对新式手枪的招标不限于本国企业，比利时FN公司也决定参与进来，根据这些要求，FN公司认为9mm口径或更大的口径会比较适合，弹头应该重约8克，而枪口初速350m/s，武器全重要控制在1公斤左右。于是FN公司便委托著名的枪械设计大师约翰·勃朗宁按照这些要求来设计一种新手枪。</p>
@@ -160,45 +121,90 @@ FN公司经过比较后，认为采用枪管短后坐原理更适合发射威力
 未来会有续章，图片在续章里。<br>
 摘自枪炮世界（http://pewpewpew.work/）</p>
 
-          </div>
+            </div>
+          </article>
         </div>
-
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
         
       </div>
 
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://fmncn.netlify.app/images/avatar.png?v=1681461543456" class="no-responsive avatar">
+    <div class="text-muted">博客版军迷网（装备网）</div>
+    <div class="social-container">
       
-
+        
       
-<div class="site-footer">
-  <div class="slogan">博客版军迷网（装备网）</div>
-  <div class="social-container">
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
-      
-    
+    </div>
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://fmncn.netlify.app/atom.xml" target="_blank">RSS</a>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://fmncn.netlify.app/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/">美国海军陆战队M40A5狙击步枪</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://fmncn.netlify.app/bo-lang-ning-da-wei-li-shou-qiang/">勃朗宁“大威力”手枪</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://fmncn.netlify.app/tag/ISmeXbQzq/" class="badge success">
+          美国海军陆战队
+        </a>
+      
+        <a href="https://fmncn.netlify.app/tag/LgxTi10XZ/" class="badge secondary">
+          美国
+        </a>
+      
+        <a href="https://fmncn.netlify.app/tag/t1Fb6fMKB/" class="badge ">
+          比利时
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://fmncn.netlify.app/atom.xml" target="_blank">RSS</a>
+  </div>
 </div>
 
 
     </div>
-    <script type="application/javascript">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
 
 hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
 </script>
 
