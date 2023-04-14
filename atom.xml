@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fmncn.netlify.app</id>
     <title>军迷网（装备网）</title>
-    <updated>2023-04-14T08:35:58.549Z</updated>
+    <updated>2023-04-14T08:38:42.932Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fmncn.netlify.app"/>
     <link rel="self" href="https://fmncn.netlify.app/atom.xml"/>
@@ -11,11 +11,27 @@
     <icon>https://fmncn.netlify.app/favicon.ico</icon>
     <rights>All rights reserved 2023, 军迷网（装备网）</rights>
     <entry>
+        <title type="html"><![CDATA[美国海军陆战队M40A5狙击步枪]]></title>
+        <id>https://fmncn.netlify.app/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/</id>
+        <link href="https://fmncn.netlify.app/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/">
+        </link>
+        <updated>2023-04-14T08:38:22.000Z</updated>
+        <content type="html"><![CDATA[<p>美国海军陆战队的M40A5是M40A3的最新改进型，刚刚公布出来，目前的相关资料不多，但从图片来看，M40A5主要的改进有三个地方：一是增加了枪口装置，而且能使用SureFire的快拆消声器；二是增加了前导轨，可以在白光瞄准镜前面加上PGW PVS-22夜视仪；三是固定弹仓改为可拆卸弹匣，容弹量10发，由于改用了弹匣，因此扳机护圈前方有弹匣卡笋。除此之外，M40A5与M40A3基本一样，包括同样是使用雷明顿700的枪机系统和麦克米兰A4枪托等等。所以相比起在M40A1基础上大刀宽斧地改进出来的M40A3，新的M40A5其实只是M40A3的简单升级，因此外观上M40A5和M40A3的区别并不大，但区别特征很明显。<br>
+M40A5并不是重新生产，而是由匡蒂科的陆战队军械所把原有的M40A1和M40A3升级而成。目前一线的部队基本上都已经换装了M40A5，并用于实战或参与演习。</p>
+<p>全枪长	44.3&quot;（1125 mm）<br>
+枪管长	25&quot; （635 mm）<br>
+空枪重	16.5 lbs（7.48 kg）<br>
+最大有效射程	1,000 码</p>
+<p>未来会有续章，图片在续章里。<br>
+摘自枪炮世界（http://pewpewpew.work/）</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[勃朗宁“大威力”手枪]]></title>
         <id>https://fmncn.netlify.app/bo-lang-ning-da-wei-li-shou-qiang/</id>
         <link href="https://fmncn.netlify.app/bo-lang-ning-da-wei-li-shou-qiang/">
         </link>
-        <updated>2023-04-12T06:04:26.000Z</updated>
+        <updated>2023-04-14T08:37:18.000Z</updated>
         <content type="html"><![CDATA[<p>比利时FN公司的勃朗宁“大威力”手枪是世界上最著名的手枪之一，曾被多个国家的军警所装备，也受到许多枪械收藏家的喜爱。可以毫不夸张地说，稍有一点手枪知识的人，没有不知道勃朗宁“大威力”手枪的，而且其在FN公司的手枪系列产品中的地位至今也无法撼动。在“大威力”手枪成功的阴影下，导致FN公司近年来推出的新手枪无论名声还是市场都无法获得成功这样的尴尬局面。《轻兵器》杂志曾经在1990年代初进行了一次由读者投票的“世界十大著名手枪”评选活动，而勃朗宁HP手枪在该活动中荣登榜首。</p>
 <p>该型手枪的正式名称就叫做“大威力”，但称呼也很多，例如经常被简称为“HP”（Hi-Power或High-Power，在下文中，为了偷懒我将主要使用HP来称呼）或“GP”（法语“大威力”Grande Puissance的缩写），由于最初在1935年推出，也经常称为“P-35”或“勃朗宁HP35”，GP35或1935型，据说当年还一个绰号叫做“九之王”（King of Nines）。在比利时和爱尔兰，有时又被称为“BAP”（勃朗宁自动手枪Browning Automatic Pistol）。该系列中推出后就一直被改进，因此产生了许多型号，但整个系列都可以统称为“大威力”。</p>
 <p>不过虽然叫做“大威力”，但其实这种9×19mm派拉贝鲁姆口径的半自动手枪的威力无论在现代还是它刚推出的年代都不算是威力最大的手枪，该枪之所以被命名为“大威力”，据说是由于该枪所采用的双排弹匣能携带13发弹，再加上膛内的1发，总共14发的容量几乎是同时代其他手枪（如卢格手枪或毛瑟1910手枪）的两倍。此外虽然乔治·卢格设计的9×19mm派拉贝鲁姆手枪弹的威力比不上.45ACP，但在不流行.45ACP的欧洲国家内，这也算得上是大威力的手枪弹了。但是除了这些理由外，还有一个重要的原因——是为了忽悠法国人。</p>
@@ -31,22 +47,6 @@ FN公司经过比较后，认为采用枪管短后坐原理更适合发射威力
 <p>直到今天，HP的Mark I型仍被加拿大军队、比利时陆军、英国陆军、印度陆军、澳洲防卫军、阿根廷陆军、爱尔兰陆军、卢森堡陆军、以色列警察、新加坡特种部队和委内瑞拉陆军的所装备。就连伊拉克前总统萨达姆·候塞因也经常携带一把勃朗宁HP手枪。勃朗宁HP手枪就像勃朗宁设计的另一把著名手枪——1911式手枪一样长寿。</p>
 <p>而继承了勃朗宁遗志完善了HP手枪设计的迪厄多内·塞弗后来也成为了FN公司的总设计师。二战后，他设计出著名的FAL自动步枪。<br>
 未来会有续章，图片在续章里。<br>
-摘自枪炮世界（http://pewpewpew.work/）</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国海军陆战队M40A5狙击步枪]]></title>
-        <id>https://fmncn.netlify.app/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/</id>
-        <link href="https://fmncn.netlify.app/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/">
-        </link>
-        <updated>2023-04-11T12:00:25.000Z</updated>
-        <content type="html"><![CDATA[<p>美国海军陆战队的M40A5是M40A3的最新改进型，刚刚公布出来，目前的相关资料不多，但从图片来看，M40A5主要的改进有三个地方：一是增加了枪口装置，而且能使用SureFire的快拆消声器；二是增加了前导轨，可以在白光瞄准镜前面加上PGW PVS-22夜视仪；三是固定弹仓改为可拆卸弹匣，容弹量10发，由于改用了弹匣，因此扳机护圈前方有弹匣卡笋。除此之外，M40A5与M40A3基本一样，包括同样是使用雷明顿700的枪机系统和麦克米兰A4枪托等等。所以相比起在M40A1基础上大刀宽斧地改进出来的M40A3，新的M40A5其实只是M40A3的简单升级，因此外观上M40A5和M40A3的区别并不大，但区别特征很明显。<br>
-M40A5并不是重新生产，而是由匡蒂科的陆战队军械所把原有的M40A1和M40A3升级而成。目前一线的部队基本上都已经换装了M40A5，并用于实战或参与演习。</p>
-<p>全枪长	44.3&quot;（1125 mm）<br>
-枪管长	25&quot; （635 mm）<br>
-空枪重	16.5 lbs（7.48 kg）<br>
-最大有效射程	1,000 码</p>
-<p>未来会有续章，图片在续章里。<br>
 摘自枪炮世界（http://pewpewpew.work/）</p>
 ]]></content>
     </entry>
