@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fmncn.netlify.app</id>
     <title>军迷网（装备网）</title>
-    <updated>2023-04-14T12:03:44.316Z</updated>
+    <updated>2023-04-17T05:22:10.385Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fmncn.netlify.app"/>
     <link rel="self" href="https://fmncn.netlify.app/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://fmncn.netlify.app/images/avatar.png</logo>
     <icon>https://fmncn.netlify.app/favicon.ico</icon>
     <rights>All rights reserved 2023, 军迷网（装备网）</rights>
+    <entry>
+        <title type="html"><![CDATA[歼-20第五代隐形战斗机]]></title>
+        <id>https://fmncn.netlify.app/jian-20-di-wu-dai-yin-xing-zhan-dou-ji/</id>
+        <link href="https://fmncn.netlify.app/jian-20-di-wu-dai-yin-xing-zhan-dou-ji/">
+        </link>
+        <updated>2023-04-17T05:18:56.000Z</updated>
+        <content type="html"><![CDATA[<p>歼-20（英文：Chengdu J-20，代号：威龙）是一款具备高隐身性、高态势感知、高机动性等能力的隐形第五代制空战斗机，解放军研制的最新一代（欧美旧标准为第四代，俄罗斯新标准为第五代）双发重型隐形战斗机，用于接替歼10、歼11等第三代空中优势/多用途歼击机的未来重型歼击机型号，该机将担负中国空军未来对空、对海的主权维护任务。<br>
+2019年10月13日，歼-20战机列装中国人民解放军空军王牌部队。<br>
+2021年6月18日，中国空军多支英雄部队列装中国国产隐身战斗机歼-20。11月，媒体报道，歼-16D电子战飞机投入实战化训练，可与歼-20无缝伴随作战。2022年9月27日，第14届中国航展新闻发布会上，空军新闻发言人申进科大校表示“中国第五代战机歼-20已经遍布‘东南西北中’”。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美国海军陆战队M40A5狙击步枪]]></title>
         <id>https://fmncn.netlify.app/mei-guo-hai-jun-lu-zhan-dui-m40a5-ju-ji-bu-qiang/</id>
